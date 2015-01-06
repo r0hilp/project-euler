@@ -11,3 +11,5 @@ while(NUM > 1):
 	fact = smallest_prime_factor(NUM)
 	print fact
 	NUM = NUM/fact
+
+# ANS: 6857

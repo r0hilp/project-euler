@@ -51,3 +51,5 @@ while proportion >= 0.1:
 	proportion = num_prime/float(4*(layers-1)+1)
 
 print 2*layers-1
+
+# ANS: 26241

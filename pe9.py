@@ -17,3 +17,5 @@ for tup in tests:
 	c = abs(tup[0]**2 - tup[1]**2)
 	if(1000%(a+b+c) == 0):
 		print a*b*c
+
+# ANS: 31875000
