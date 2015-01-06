@@ -1,6 +1,7 @@
 MIN = 1
 MAX = 1000000
 
+# check if x, 2x, ... 6x all have same digits
 def check_num(n):
 	num_digits = len(str(n))
 	if n > 10**num_digits/6:
