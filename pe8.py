@@ -6,7 +6,10 @@ f.close()
 num = num.replace('\n', '')
 prod = 0
 
-for i in range(len(num)-4):
-	slice = num[i:i+5]
-	prod = max(prod, int(slice[0])*int(slice[1])*int(slice[2])*int(slice[3])*int(slice[4]))
+for i in range(len(num)-13):
+	slice = num[i:i+13]
+	slice_prod = 1
+	for c in slice:
+		slice_prod *= int(c)
+	prod = max(prod, slice_prod)
 print prod
