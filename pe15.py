@@ -14,6 +14,6 @@ for i in range(1, X+Y-2):
 		grid[x][y] = grid[x-1][y] + grid[x][y-1]
 		print grid[x][y]
 
-print grid[19][18]+grid[18][19]
+print grid[X-2][Y-1]+grid[X-1][Y-2]
 
 # ANS: 3534263800
